@@ -1,0 +1,4 @@
+runmode: debug
+addr: :8080
+uri: http://127.0.0.1:8080
+max_retry_count: 3
