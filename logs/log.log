@@ -1,0 +1,62 @@
+2019-09-17 15:21:22.998 ERROR go-web/main.go:25 this is normal error error: test error log
+2019-09-17 15:21:22.999 INFO go-web/main.go:38 server start at address :8080
+2019-09-17 15:21:23.000 INFO go-web/main.go:35 server healthcheck successfully!!!
+2019-09-17 15:30:02.762 ERROR model/init.go:57 open database[db_apiserver] error error: sql: unknown driver "mysql" (forgotten import?)
+2019-09-17 15:31:15.928 ERROR model/init.go:57 open database[db_apiserver] error error: sql: unknown driver "mysql" (forgotten import?)
+2019-09-17 15:33:39.298 ERROR model/init.go:59 open database[db_apiserver] error error: sql: unknown driver "mysql" (forgotten import?)
+2019-09-17 15:33:39.298 ERROR model/init.go:59 open database[] error error: sql: unknown driver "mysql" (forgotten import?)
+2019-09-17 15:33:39.298 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 15:33:39.299 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 15:34:28.671 ERROR model/init.go:60 open database[] error error: Error 1045: Access denied for user ''@'172.17.0.1' (using password: NO)
+2019-09-17 15:34:28.671 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 15:34:28.672 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 15:35:55.824 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 15:35:55.826 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:49:31.490 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:49:31.592 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:50:36.400 INFO user/create.go:18 URL param username : 
+2019-09-17 16:50:36.401 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:50:36.401 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:50:36.401 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:51:00.821 INFO user/create.go:18 URL param username : 
+2019-09-17 16:51:01.334 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:51:18.200 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:51:19.808 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:53:05.623 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:53:05.624 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:53:10.092 INFO user/create.go:18 URL param username : 
+2019-09-17 16:53:10.092 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:53:10.092 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:53:10.092 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:53:45.716 INFO user/create.go:18 URL param username : 
+2019-09-17 16:53:45.716 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:53:45.716 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:53:45.716 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:54:07.369 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:54:07.370 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:54:09.786 INFO user/create.go:18 URL param username : 
+2019-09-17 16:54:09.786 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:54:09.786 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:54:09.786 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:54:35.687 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:54:35.689 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:54:38.859 INFO user/create.go:18 URL param username : 
+2019-09-17 16:54:38.859 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:54:38.859 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:54:38.859 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:57:35.075 INFO user/create.go:18 URL param username : 
+2019-09-17 16:57:35.075 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:57:35.075 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:57:35.075 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:58:08.080 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:58:08.081 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 16:58:12.895 INFO user/create.go:18 URL param username : 
+2019-09-17 16:58:12.895 INFO user/create.go:19 URL param desc : 
+2019-09-17 16:58:12.895 INFO user/create.go:22 Content-Type : 
+2019-09-17 16:58:12.895 INFO user/create.go:24 [create user] username is , password is 
+2019-09-17 16:58:55.788 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 16:58:55.789 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 17:00:10.143 INFO user/create.go:26 URL param username : 
+2019-09-17 17:00:10.143 INFO user/create.go:27 URL param desc : 
+2019-09-17 17:00:10.143 INFO user/create.go:30 Content-Type : application/json
+2019-09-17 17:00:10.143 INFO user/create.go:32 [create user] username is admin, password is admin

@@ -2,6 +2,7 @@ package router
 
 import (
 	"github.com/fibbery/go-web/router/handler/sd"
+	"github.com/fibbery/go-web/router/handler/user"
 	"github.com/fibbery/go-web/router/middleware"
 	"github.com/gin-gonic/gin"
 	"net/http"
@@ -18,6 +19,11 @@ func Load(g *gin.Engine, mdw ...gin.HandlerFunc) {
 	g.NoRoute(func(c *gin.Context) {
 		c.String(http.StatusNotFound, "not found")
 	})
+
+	u := g.Group("/v1/user")
+	{
+		u.POST("", user.Create)
+	}
 
 	sdvc := g.Group("/sd")
 	{
