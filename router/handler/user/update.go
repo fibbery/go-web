@@ -26,6 +26,11 @@ func Update(ctx *gin.Context) {
 		return
 	}
 
+	if err := u.Encrypt(); err != nil {
+		handler.SendResponse(ctx, errno.ErrEncrypt, nil)
+		return
+	}
+
 	if err := model.Update(&u); err != nil {
 		handler.SendResponse(ctx, errno.ErrDatabase, nil)
 		return

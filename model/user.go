@@ -27,12 +27,12 @@ func Delete(id int) error {
 }
 
 func Update(u *UserModel) error {
-	return DB.Self.Save(u).Error
+	return DB.Self.Save(&u).Error
 }
 
 func GetUser(name string) (*UserModel, error) {
 	u := &UserModel{}
-	d := DB.Self.Unscoped().Where("username = ? ", name).First(u)
+	d := DB.Self.Where("username = ? ", name).First(&u)
 	return u, d.Error
 }
 

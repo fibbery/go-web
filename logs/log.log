@@ -134,3 +134,45 @@
 2019-09-18 17:24:59.911 INFO user/create.go:14 User Create function called.
 2019-09-18 17:39:16.732 INFO go-web/main.go:42 server start at address :8080
 2019-09-18 17:39:16.733 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:03:52.158 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:03:52.159 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:05:22.879 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:05:22.880 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:06:15.886 INFO user/update.go:15 User Update function called.
+2019-09-18 18:07:08.722 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:07:08.724 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:07:17.784 INFO user/update.go:15 User Update function called.
+2019-09-18 18:08:02.934 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:08:02.936 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:08:16.999 INFO user/update.go:15 User Update function called.
+2019-09-18 18:09:00.780 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:09:00.781 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:09:03.536 INFO user/update.go:15 User Update function called.
+2019-09-18 18:10:48.040 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:10:48.042 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:10:49.341 INFO user/update.go:15 User Update function called.
+2019-09-18 18:11:07.838 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:11:07.840 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:11:11.579 INFO user/update.go:15 User Update function called.
+2019-09-18 18:15:02.802 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:15:02.807 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:15:35.371 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:15:35.373 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:17:05.348 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:17:05.349 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:18:12.246 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:18:12.248 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:18:30.112 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:18:30.114 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:18:51.749 INFO user/create.go:14 User Create function called.
+2019-09-18 18:20:28.437 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:20:28.438 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:20:44.771 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:20:44.772 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:20:49.164 INFO user/create.go:14 User Create function called.
+2019-09-18 18:21:03.977 INFO user/create.go:14 User Create function called.
+2019-09-18 18:22:01.839 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 18:22:01.842 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 18:22:04.448 INFO user/create.go:14 User Create function called.
+2019-09-18 18:22:54.972 INFO user/create.go:14 User Create function called.
+2019-09-18 18:23:39.933 INFO user/create.go:14 User Create function called.
