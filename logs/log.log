@@ -176,3 +176,27 @@
 2019-09-18 18:22:04.448 INFO user/create.go:14 User Create function called.
 2019-09-18 18:22:54.972 INFO user/create.go:14 User Create function called.
 2019-09-18 18:23:39.933 INFO user/create.go:14 User Create function called.
+2019-09-18 19:08:10.197 INFO go-web/main.go:43 server start at address :8080
+2019-09-18 19:08:10.301 INFO go-web/main.go:40 server healthcheck successfully!!!
+2019-09-18 19:08:16.685 INFO user/create.go:14 User Create function called.
+2019-09-18 19:08:46.158 INFO user/create.go:14 User Create function called.
+2019-09-18 19:10:08.550 INFO user/create.go:14 User Create function called.
+{"level":"INFO","timestamp":"2019-09-18 19:11:00.022","file":"go-web/main.go:43","msg":"server start at address :8080"}
+{"level":"INFO","timestamp":"2019-09-18 19:11:00.023","file":"go-web/main.go:40","msg":"server healthcheck successfully!!!"}
+{"level":"INFO","timestamp":"2019-09-18 19:11:07.836","file":"user/create.go:14","msg":"User Create function called.","data":{"X-Request-Id":"334b59f2-7ab7-48b4-85d2-5487a4f50dc8"}}
+{"level":"INFO","timestamp":"2019-09-18 23:55:13.260","file":"go-web/main.go:43","msg":"server start at address :8080"}
+{"level":"INFO","timestamp":"2019-09-18 23:55:13.261","file":"go-web/main.go:54","msg":"will retry in 1 seconds to healthcheck"}
+{"level":"INFO","timestamp":"2019-09-18 23:55:14.264","file":"go-web/main.go:40","msg":"server healthcheck successfully!!!"}
+{"level":"INFO","timestamp":"2019-09-18 23:55:21.725","file":"user/create.go:14","msg":"User Create function called.","data":{"X-Request-Id":"62b4e16f-664b-436f-9c69-44c9b8ba2f74"}}
+{"level":"INFO","timestamp":"2019-09-18 23:55:21.832","file":"middleware/log.go:66","msg":"107.048ms     | 127.0.0.1    | POST /v1/user | {code: -1, message: }"}
+{"level":"INFO","timestamp":"2019-09-18 23:57:46.494","file":"go-web/main.go:43","msg":"server start at address :8080"}
+{"level":"INFO","timestamp":"2019-09-18 23:57:46.495","file":"go-web/main.go:40","msg":"server healthcheck successfully!!!"}
+{"level":"INFO","timestamp":"2019-09-18 23:57:49.743","file":"user/create.go:14","msg":"User Create function called.","data":{"X-Request-Id":"6f961e1c-3375-4cd0-8585-22a4a5ccc611"}}
+{"level":"INFO","timestamp":"2019-09-18 23:57:49.849","file":"middleware/log.go:66","msg":"105.693ms     | 127.0.0.1    | POST /v1/user | body : {\"username\":\"lixin\",\"password\":\"lixin\"} | {code: -1, message: }"}
+{"level":"INFO","timestamp":"2019-09-18 23:58:33.000","file":"go-web/main.go:43","msg":"server start at address :8080"}
+{"level":"INFO","timestamp":"2019-09-18 23:58:33.002","file":"go-web/main.go:40","msg":"server healthcheck successfully!!!"}
+{"level":"INFO","timestamp":"2019-09-18 23:58:36.472","file":"middleware/log.go:66","msg":"8.319ms       | ::1          | GET /v1/user | request :  | response : {code: -1, message: }"}
+{"level":"INFO","timestamp":"2019-09-18 23:59:25.461","file":"go-web/main.go:43","msg":"server start at address :8080"}
+{"level":"INFO","timestamp":"2019-09-18 23:59:25.464","file":"go-web/main.go:40","msg":"server healthcheck successfully!!!"}
+{"level":"INFO","timestamp":"2019-09-18 23:59:27.528","file":"middleware/log.go:69","msg":"5.782ms       | ::1          | GET /v1/user | request :  | response : {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-09-19 00:02:10.144","file":"middleware/log.go:69","msg":"2m19.565973s  | ::1          | GET /v1/user | request :  | response : {code: 0, message: OK}"}

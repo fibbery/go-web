@@ -5,6 +5,7 @@ import (
 	"github.com/fibbery/go-web/config"
 	"github.com/fibbery/go-web/model"
 	"github.com/fibbery/go-web/router"
+	"github.com/fibbery/go-web/router/middleware"
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
@@ -29,7 +30,7 @@ func main() {
 
 	gin.SetMode(viper.GetString("runmode"))
 	g := gin.New()
-	mdw := []gin.HandlerFunc{}
+	mdw := []gin.HandlerFunc{middleware.RequestId, middleware.Log}
 
 	router.Load(g, mdw...)
 	go func() {

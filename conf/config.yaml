@@ -9,7 +9,7 @@ log:
   writers: file,stdout
   logger_level: DEBUG
   logger_file: logs/log.log
-  log_format_text: true
+  log_format_text: false
   rollingPolicy: daily # size, daily
   log_rotate_date: 1
   log_rotate_size: 1
