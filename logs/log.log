@@ -60,3 +60,77 @@
 2019-09-17 17:00:10.143 INFO user/create.go:27 URL param desc : 
 2019-09-17 17:00:10.143 INFO user/create.go:30 Content-Type : application/json
 2019-09-17 17:00:10.143 INFO user/create.go:32 [create user] username is admin, password is admin
+2019-09-17 22:39:47.178 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 22:39:47.180 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 22:41:01.845 INFO user/create.go:14 User Create function called.
+2019-09-17 22:48:44.980 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 22:48:44.982 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 22:48:48.682 INFO user/create.go:14 User Create function called.
+2019-09-17 22:50:42.999 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 22:50:43.000 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 22:50:49.185 INFO user/create.go:14 User Create function called.
+2019-09-17 22:51:56.816 INFO go-web/main.go:42 server start at address :8080
+2019-09-17 22:51:56.818 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-17 22:52:00.048 INFO user/create.go:14 User Create function called.
+2019-09-17 22:58:00.475 INFO user/create.go:14 User Create function called.
+2019-09-17 23:07:34.625 INFO user/create.go:14 User Create function called.
+2019-09-18 10:10:19.170 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 10:10:19.171 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 10:10:26.588 INFO user/create.go:14 User Create function called.
+2019-09-18 10:11:02.015 INFO user/create.go:14 User Create function called.
+2019-09-18 10:33:34.200 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 10:33:34.203 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 10:33:39.887 INFO user/create.go:14 User Create function called.
+2019-09-18 15:50:44.367 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:50:45.584 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:51:11.445 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:51:11.446 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:51:41.025 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:51:41.025 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:52:46.979 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:52:46.980 ERROR model/init.go:60 open database[db_apiserver] error error: dial tcp 127.0.0.1:3306: connect: connection refused
+2019-09-18 15:54:34.120 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 15:54:34.120 INFO go-web/main.go:53 will retry in 1 seconds to healthcheck
+2019-09-18 15:54:35.127 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 15:57:07.856 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 15:57:07.858 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:00:58.859 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:00:58.860 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:05:33.496 INFO user/create.go:14 User Create function called.
+2019-09-18 16:06:44.074 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:06:44.075 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:06:58.310 INFO user/create.go:14 User Create function called.
+2019-09-18 16:09:01.007 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:09:01.008 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:10:14.265 INFO user/create.go:14 User Create function called.
+2019-09-18 16:13:24.040 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:13:24.041 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:19:04.487 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:19:04.489 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:23:48.371 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:23:48.372 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:26:03.996 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:26:03.997 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 16:28:20.586 INFO user/create.go:14 User Create function called.
+2019-09-18 16:28:31.089 INFO user/create.go:14 User Create function called.
+2019-09-18 16:55:33.428 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 16:55:33.429 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:02:56.733 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:02:56.734 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:13:40.596 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:13:40.598 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:14:42.632 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:14:42.633 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:15:58.041 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:15:58.043 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:19:28.088 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:19:28.089 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:20:21.303 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:20:21.304 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:21:38.707 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:21:38.709 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:23:39.945 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:23:39.947 INFO go-web/main.go:39 server healthcheck successfully!!!
+2019-09-18 17:24:59.911 INFO user/create.go:14 User Create function called.
+2019-09-18 17:39:16.732 INFO go-web/main.go:42 server start at address :8080
+2019-09-18 17:39:16.733 INFO go-web/main.go:39 server healthcheck successfully!!!

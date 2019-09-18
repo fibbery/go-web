@@ -23,6 +23,10 @@ func Load(g *gin.Engine, mdw ...gin.HandlerFunc) {
 	u := g.Group("/v1/user")
 	{
 		u.POST("", user.Create)
+		u.DELETE("/:id", user.Delete)
+		u.PUT("/:id", user.Update)
+		u.GET("/:username", user.Get)
+		u.GET("", user.List)
 	}
 
 	sdvc := g.Group("/sd")

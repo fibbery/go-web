@@ -60,6 +60,7 @@ func openDB(name, addr, user, passwd string) *gorm.DB {
 		log.Errorf(err, "open database[%s] error", name)
 		return nil
 	}
+	db.LogMode(true)
 	db.DB().SetMaxIdleConns(0)
 	return db
 }
