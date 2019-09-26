@@ -4,12 +4,14 @@ addr: :8080
 uri: http://127.0.0.1:8080
 max_retry_count: 3
 
+jwt_secrect: zfJRQ3bsC89QpEh1QxnGHxIOHZsPgU3xIbvkF2kn8y4L0RXgf6jFS5tQmRRYt0Z
+
 # 日志配置
 log:
   writers: file,stdout
   logger_level: DEBUG
   logger_file: logs/log.log
-  log_format_text: false
+  log_format_text: true
   rollingPolicy: daily # size, daily
   log_rotate_date: 1
   log_rotate_size: 1

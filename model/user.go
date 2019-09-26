@@ -11,6 +11,11 @@ type UserModel struct {
 	Password string `gorm:"Column:password;not null" json:"password" binding:"required" validate:"min=5,max=128"`
 }
 
+// Token represents a JSON web token.
+type Token struct {
+	Token string `json:"token"`
+}
+
 func (u *UserModel) TableName() string {
 	return "tb_users"
 }

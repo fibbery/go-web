@@ -20,7 +20,9 @@ func Load(g *gin.Engine, mdw ...gin.HandlerFunc) {
 		c.String(http.StatusNotFound, "not found")
 	})
 
+	g.POST("/login", user.Login)
 	u := g.Group("/v1/user")
+	u.Use(middleware.Token)
 	{
 		u.POST("", user.Create)
 		u.DELETE("/:id", user.Delete)
