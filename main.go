@@ -1,25 +1,43 @@
 package main
 
 import (
+	"encoding/json"
 	"errors"
+	"fmt"
+	"net/http"
+	"os"
+	"time"
+
 	"github.com/fibbery/go-web/config"
 	"github.com/fibbery/go-web/model"
+	v "github.com/fibbery/go-web/pkg/version"
 	"github.com/fibbery/go-web/router"
 	"github.com/fibbery/go-web/router/middleware"
+
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"net/http"
-	"time"
 )
 
 var (
-	c = pflag.StringP("config", "c", "", "config file absolute path")
+	c       = pflag.StringP("config", "c", "", "config file absolute path")
+	version = pflag.BoolP("version", "v", false, "show version info.")
 )
 
 func main() {
 	pflag.Parse()
+	if *version {
+		ver := v.Get()
+		marshal, err := json.MarshalIndent(ver, "", " ")
+		if err != nil {
+			fmt.Printf("%v\n", err)
+			os.Exit(1)
+		}
+		fmt.Println(string(marshal))
+		return
+	}
+
 	if err := config.Init(*c); err != nil {
 		panic(err)
 	}

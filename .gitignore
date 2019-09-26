@@ -87,3 +87,4 @@ fabric.properties
 # vendor/
 .idea/
 logs/
+go-web

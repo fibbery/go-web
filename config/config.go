@@ -12,7 +12,7 @@ type Config struct {
 }
 
 func Init(name string) error {
-	c := Config{Name: name,}
+	c := Config{Name: name}
 	if err := c.initConfig(); err != nil {
 		return err
 	}
